@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style>
+	h1{ color: black;}	
+
+	h1{ background-color: orange }
+
+	body{ background-color:red; }
+
+	#org{
+		color:pink;
+		text-align:left;}
+
+	#dog{text-align: right;}
+
+	#friend{text-align: left;}
+
+	#work{text-align: right;}
+	p{
+		font-size:70px;
+		font-weight:bold;
+		border:10px  ridge blue;
+		padding: 1rem;
+	}
+
+	#dog{color: red;}
+	#dog{background-color: orange}
+	#friend{color:purple;}
+	#work{color:green;}
+	#work{background-color:orange;}
+
+
+</style>
+<script>
+
+	var color = prompt("What is your favorite color");
+
+	if (color === "orange"){ alert("Good Choice");
+	}
+	else{
+		alert("you should really pick a new favorite.....");
+	}
+	var animal = prompt("Do you like dogs or cats");
+
+	if (animal === "dogs" ){alert("You have great taste")}
+
+		else{
+			alert("Sorry but you're kinda bad at this.....")
+		}
+		var friend = prompt("Do you have any friends? (y or n)");
+
+		if (friend === "y"){ alert("Really??????");
+	}
+	else{
+		alert("I can kinda see why....");
+
+
+	}
+		var work = prompt("Finally, Where do you work?").toLowerCase();
+		
+
+		if (work === "code fellows" ){ alert("Despite some of your sup-par choices, I guess you 'aight.");
+	}
+	else{
+		alert("Why are you even reading this???????");
+	}
+
+	console.log('Your favorite color is: ' + color + '. You like ' + animal );
+
+	if (friend === 'y' || 'Y'){
+		console.log('You have friends!')
+	}else{console.log('your kinda lonley')};
+
+	console.log('You work at: ' + work);
+</script>
+
+<head>
+  <title>Avrey's Site</title>
+  </head>
+  
+  <body>
+  	  
+    <header>
+      <h1>Class 1 Lab</h1>
+      </header>
+      <p id= "org">What is your favorite color?</p>
+      <p id = "dog"> Do you like dogs or cats?</p>
+      <p id = "friend"> Do you have any friends?</p>
+      <p id = "work"> Finally, Where do you work?</p>
+      
+
+      <footer> Avrey's Website Inc. Tm</footer>
+  </body>
